@@ -25,12 +25,12 @@ public class MostCommonCharacter {
             
         }
 
-        int maxValueInMap=(Collections.max(charCount.values()));  // This will return max value in the Hashmap    
+        int maxValueInMap=(Collections.max(charCount.values()));    
             for (Entry<Character, Integer> entry : charCount.entrySet())
             {  
                 if (entry.getValue()==maxValueInMap)
                 {
-                    System.out.println("the max char is : " + entry.getKey() + "  and displayed  " +maxValueInMap+ "  times");     // Print the key with max value
+                    
                     maxappearchar = entry.getKey();
                 }
 
